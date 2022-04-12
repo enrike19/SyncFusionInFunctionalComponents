@@ -54,6 +54,11 @@ import Spinner from "./components/SyncFusionComponents/Spinner";
 import SplitButtons from "./components/SyncFusionComponents/SplitButtons";
 import Splitter from "./components/SyncFusionComponents/Splitter";
 import Spreadsheet from "./components/SyncFusionComponents/Spreadsheet";
+import Switch from "./components/SyncFusionComponents/Switch";
+import Tabs from "./components/SyncFusionComponents/Tabs";
+import Toast from "./components/SyncFusionComponents/Toast";
+import Toolbar from "./components/SyncFusionComponents/Toolbar";
+import Tooltips from "./components/SyncFusionComponents/Tooltips";
 
 function App() {
   return (
@@ -155,6 +160,18 @@ function App() {
                 <Route path={'/splitter'} element={<Splitter/>} />
 
                 <Route path={'/Spreadsheet'} element={<Spreadsheet/>} />
+
+                <Route path={'/Switch'} element={<Switch/>} />
+
+                <Route path={'/tabs'} element={<Tabs/>} />
+
+                <Route path={'/toast'} element={<Toast/>} />
+
+                <Route path={'/toolbar'} element={<Toolbar/>} />
+
+
+                <Route path={'/tooltips'} element={<Tooltips/>} />
+
 
 
 

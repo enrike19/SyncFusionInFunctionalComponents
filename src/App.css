@@ -388,3 +388,9 @@ body {
 @import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-grids/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-react-spreadsheet/styles/material.css';
+
+/* Toast */
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-react-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-react-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-react-notifications/styles/material.css';

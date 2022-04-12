@@ -21,6 +21,7 @@
     "@syncfusion/ej2-react-lists": "^20.1.47",
     "@syncfusion/ej2-react-maps": "^20.1.47",
     "@syncfusion/ej2-react-navigations": "^20.1.47",
+    "@syncfusion/ej2-react-notifications": "^20.1.47",
     "@syncfusion/ej2-react-pdfviewer": "^20.1.47",
     "@syncfusion/ej2-react-pivotview": "^20.1.47",
     "@syncfusion/ej2-react-popups": "^20.1.47",
