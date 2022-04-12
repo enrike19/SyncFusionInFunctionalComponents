@@ -394,3 +394,15 @@ body {
 @import '../node_modules/@syncfusion/ej2-react-buttons/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-react-popups/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-react-notifications/styles/material.css';
+
+/* import the TreeView dependency styles */
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+
+
+/* Uploaders */
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-inputs/styles/material.css";

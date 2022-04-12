@@ -32,6 +32,7 @@
     "@syncfusion/ej2-react-splitbuttons": "^20.1.47",
     "@syncfusion/ej2-react-spreadsheet": "^20.1.47",
     "@syncfusion/ej2-react-treegrid": "^20.1.47",
+    "@syncfusion/ej2-react-treemap": "^20.1.47",
     "@syncfusion/ej2-splitbuttons": "^20.1.47",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",

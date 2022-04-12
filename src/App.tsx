@@ -59,6 +59,9 @@ import Tabs from "./components/SyncFusionComponents/Tabs";
 import Toast from "./components/SyncFusionComponents/Toast";
 import Toolbar from "./components/SyncFusionComponents/Toolbar";
 import Tooltips from "./components/SyncFusionComponents/Tooltips";
+import TreeMap from "./components/SyncFusionComponents/TreeMap";
+import TreeView from "./components/SyncFusionComponents/TreeView";
+import Uploader from "./components/SyncFusionComponents/Uploader";
 
 function App() {
   return (
@@ -169,8 +172,14 @@ function App() {
 
                 <Route path={'/toolbar'} element={<Toolbar/>} />
 
-
                 <Route path={'/tooltips'} element={<Tooltips/>} />
+
+                <Route path={'/treeMap'} element={<TreeMap/>} />
+
+                <Route path={'/treeView'} element={<TreeView/>} />
+
+                <Route path={'/uploader'} element={<Uploader/>} />
+
 
 
 

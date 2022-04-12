@@ -16,7 +16,35 @@ const Tooltips = () => {
     text-align: center;
     color: #424242;
     font-size: 20px;
-}`;
+}
+
+.tooltip-box {
+    width: 100%;
+    height: 200px;
+  }
+
+  #tooltip {
+    background-color: #cfd8dc;
+    border: 3px solid #eceff1;
+    box-sizing: border-box;
+    padding: 20px 0;
+    width: 200px;
+    text-align: center;
+    color: #424242;
+    font-size: 20px;
+    user-select: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+  }
+
+  .ddl {
+    display: inline-block;
+    margin: 0 30px;
+  }
+
+`;
 
     const content = () => {
         return (<div id='tooltipContent'>
@@ -50,6 +78,35 @@ const Tooltips = () => {
 
     }
 
+    let tooltipInstancePos: any;
+    let dropElement: any;
+
+    const change = () => {
+        tooltipInstancePos.position = dropElement.value;
+    }
+
+    let tooltipInstanceOp: any;
+    let buttonElementOp: any;
+    let styleTable = {
+        margin: '150px auto 0 auto', transform: 'translateY(-50%)'
+    };
+    let margin = {
+        margin: '40px'
+    };
+
+    const handleClickOp = () => {
+        if (buttonElementOp.getAttribute('data-tooltip-id')) {
+            tooltipInstance.close();
+        }
+        else {
+            tooltipInstance.open(buttonElementOp);
+        }
+    }
+
+    const TooltipAnimation = {
+        open: { effect: 'ZoomIn', duration: 1000, delay: 0 },
+        close: { effect: 'ZoomOut', duration: 500, delay: 0 }
+    };
 
 
     return (
@@ -121,33 +178,79 @@ const Tooltips = () => {
             </div>
 
             <div className="row mt-40">
+                <div className="col-md-12">
+                    <b>Open Mode</b>
+                    <table style={style}>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <TooltipComponent content='Tooltip from hover' opensOn='Hover' target='#hoverButton'>
+                                    <button style={margin} id='hoverButton' className="e-btn blocks">Hover Me !(Default)</button>
+                                </TooltipComponent>
+                            </td>
+                            <td>
+                                <TooltipComponent content='Tooltip from click' opensOn='Click' target='#clickButton'>
+                                    <button style={margin} id='clickButton' className="e-btn blocks">Click Me !</button>
+                                </TooltipComponent>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <TooltipComponent content='Tooltip from focus' opensOn='Focus' target='#tooltipfocus'>
+                                <span style={margin} id="textbox" className="e-float-input blocks">
+                                    <input id="tooltipfocus" type="text" placeholder="Focus and blur"/>
+                                </span>
+                                </TooltipComponent>
+                            </td>
+                            <td>
+                                <TooltipComponent className="wrap" ref={t => tooltipInstanceOp = t} opensOn='custom' content='Tooltip from custom mode'>
+                                    <input id="box" type="button" className="e-btn" ref={d => buttonElementOp = d} onClick={handleClickOp} value="Click to open tooltip manually"/>
+                                </TooltipComponent>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div className="row">
                 <div className="col-md-3">
-                    <b>Ajax</b>
-                    <div id="container">
-                        <h4>National Sports</h4>
-                        <TooltipComponent id="targetContainer" ref={t => tooltipInstance = t} className="e-prevent-select" content="Loading..." target=".target" position="RightCenter" beforeRender={onBeforeRender}>
-                            <div id="countrylist">
-                                <ul>
-                                    <li className="target" title="1"><span>Australia</span></li>
-                                    <li className="target" title="2"><span>Bhutan</span></li>
-                                    <li className="target" title="3"><span>China</span></li>
-                                    <li className="target" title="4"><span>Cuba</span></li>
-                                    <li className="target" title="5"><span>India</span></li>
-                                    <li className="target" title="6"><span>Switzerland</span></li>
-                                    <li className="target" title="7"><span>United States</span></li>
-                                </ul>
-                            </div>
-                        </TooltipComponent>
+                    <b>Define Positions</b>
+                    <TooltipComponent ref={t => tooltipInstancePos = t} className="tooltip-box" content='Tooltip Content' target='#tooltip'>
+                        <div id="tooltip">Show Tooltip</div>
+                    </TooltipComponent>
+                    <div className='ddl'>
+                        <select id="positions" ref={d => dropElement = d} onChange={change} className="form-control drop-inline">
+                            <option value="TopLeft">Top Left</option>
+                            <option value="TopCenter" selected>Top Center</option>
+                            <option value="TopRight">Top Right</option>
+                            <option value="BottomLeft">Bottom Left</option>
+                            <option value="BottomCenter">Bottom Center</option>
+                            <option value="BottomRight">Bottom Right</option>
+                            <option value="LeftTop">Left Top</option>
+                            <option value="LeftCenter">Left Center</option>
+                            <option value="LeftBottom">Left Bottom</option>
+                            <option value="RightTop">Right Top</option>
+                            <option value="RightCenter">Right Center</option>
+                            <option value="RightBottom">Right Bottom</option>
+                        </select>
                     </div>
+
                 </div>
                 <div className="col-md-3">
-                    <b></b>
+                    <b>Mouse trailing</b>
+                    <TooltipComponent className="tooltip-box" content='Tooltip Content' mouseTrail={true} showTipPointer={false}>
+                        <div id='target'>Show Tooltip</div>
+                    </TooltipComponent>
                 </div>
                 <div className="col-md-3">
-                    <b></b>
+                    <TooltipComponent className="tooltip-box" content='Tooltip animation effect' animation={ {
+                            open: { effect: 'ZoomIn', duration: 1000, delay: 0 },
+                            close: { effect: 'ZoomOut', duration: 500, delay: 0 }} }>
+                        <div id='target'>Show Tooltip</div>
+                    </TooltipComponent>
                 </div>
                 <div className="col-md-3">
-                    <b></b>
+
                 </div>
             </div>
 
@@ -157,3 +260,6 @@ const Tooltips = () => {
 }
 
 export default Tooltips;
+
+
+

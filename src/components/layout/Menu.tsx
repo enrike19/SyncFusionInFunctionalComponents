@@ -58,17 +58,9 @@ const Menu = () => {
         {name: 'Toast', link: '/toast'},
         {name: 'Toolbar', link: '/toolbar'},
         {name: 'Tooltips', link: '/tooltips'},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
+        {name: 'TreeMap', link: '/treeMap'},
+        {name: 'TreeView', link: '/treeView'},
+        {name: 'Uploader', link: '/uploader'}
     ];
 
 
