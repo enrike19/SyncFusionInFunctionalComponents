@@ -46,6 +46,14 @@ import Radiobutton from "./components/SyncFusionComponents/RadioButton";
 import RangeSlider from "./components/SyncFusionComponents/RangeSlider";
 import RichTextEditorE from "./components/SyncFusionComponents/RichEditor";
 import Scheduler from "./components/SyncFusionComponents/Scheduler";
+import Sidebar from "./components/SyncFusionComponents/Sidebar";
+import Signature from "./components/SyncFusionComponents/Signature";
+import SmithChart from "./components/SyncFusionComponents/SmithChart";
+import Sparkline from "./components/SyncFusionComponents/Sparkline";
+import Spinner from "./components/SyncFusionComponents/Spinner";
+import SplitButtons from "./components/SyncFusionComponents/SplitButtons";
+import Splitter from "./components/SyncFusionComponents/Splitter";
+import Spreadsheet from "./components/SyncFusionComponents/Spreadsheet";
 
 function App() {
   return (
@@ -131,6 +139,23 @@ function App() {
                 <Route path={'/richTextEditor'} element={<RichTextEditorE/>} />
 
                 <Route path={'/schedule'} element={<Scheduler/>} />
+
+                <Route path={'/sidebar'} element={<Sidebar/>} />
+
+                <Route path={'/signature'} element={<Signature/>} />
+
+                <Route path={'/smithChart'} element={<SmithChart/>} />
+
+                <Route path={'/sparkline'} element={<Sparkline/>} />
+
+                <Route path={'/spinner'} element={<Spinner/>} />
+
+                <Route path={'/splitButtons'} element={<SplitButtons/>} />
+
+                <Route path={'/splitter'} element={<Splitter/>} />
+
+                <Route path={'/Spreadsheet'} element={<Spreadsheet/>} />
+
 
 
 

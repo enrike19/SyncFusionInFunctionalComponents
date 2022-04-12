@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import {SidebarComponent} from "@syncfusion/ej2-react-navigations";
 
 const Menu = () => {
 
@@ -44,19 +45,21 @@ const Menu = () => {
         {name: 'Range slider', link: '/rangeSlider'},
         {name: 'RichTextEditor', link: '/richTextEditor'},
         {name: 'Schedule', link: '/schedule'},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
-        {name: '', link: ''},
+        {name: 'Sidebar', link: '/sidebar'},
+        {name: 'Signature', link: '/signature'},
+        {name: 'Smith Chart', link: '/smithChart'},
+        {name: 'SparkLine', link: '/sparkline'},
+        {name: 'Spinner', link: '/spinner'},
+        {name: 'SplitButtons', link: '/splitButtons'},
+        {name: 'Splitter', link: '/splitter'},
+        {name: 'Spreadsheet', link: '/Spreadsheet'},
         {name: '', link: ''},
     ];
 
+
     return (
         <div className="col-md-3">
+
             <h6 className={"text-center"}>Menu</h6>
             <div className="row">
                 {
@@ -66,7 +69,6 @@ const Menu = () => {
                         </div>
                     ))
                 }
-
             </div>
         </div>
     );

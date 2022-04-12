@@ -2,81 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ead3ad0-b8ec-4f9c-bb05-9759c52a97c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/syncfusionexamples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Barcode.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/ButtonGroup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Carrousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Charts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Checkbox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/DataLocal/Heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/DataLocal/data-adaptiveGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/DataLocal/data-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/DataLocal/data-querybuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/DataLocal/data-scrollGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/DataLocal/data-treegrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/ContextMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/DataGrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/Dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/Menubar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/PivotTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/ProgressButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/RadioButtons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/RangeSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/TreeGrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/sample-base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/ContextMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/DashboardLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/DataGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/DataManager.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/DatesPicker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Dropdown.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/FileManager.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/FormValidator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Gantt.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Grid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Grids/AdaptiveGrid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Grids/AjaxGrid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Grids/BasicGrid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Grids/HandleErrorGrid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Grids/ScrollGrid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Heatmap.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/InPlaceEditor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Kanban.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/LinearGauge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/ListBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/ListView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Maps.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/MaskedTextBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/MenuBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Multiselect.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/NumericTextbox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/PDFViewer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Pager.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/PivotTable.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/ProgressBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/ProgressButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/QueryBuilder.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/RadioButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/RangeNavigator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/RangeSlider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/RichEditor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Row.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Scheduler.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/TreeGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Common/css/SplitBottons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Schedules/BasicScheduler.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Schedules/CrudScheduler.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Schedules/SettingViewScheduler.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Schedules/VirtualScrollingSchedule.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Signature.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/SmithChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Sparkline.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Spinner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/SplitButtons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Splitter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Spreadsheet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SyncFusionComponents/Scheduler.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SyncFusionComponents/Scheduler.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Menu.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +73,8 @@
       <workItem from="1649115349659" duration="3521000" />
       <workItem from="1649120324648" duration="2724000" />
       <workItem from="1649131231428" duration="17713000" />
-      <workItem from="1649210529463" duration="75908000" />
+      <workItem from="1649210529463" duration="76308000" />
+      <workItem from="1649689636362" duration="17960000" />
     </task>
     <servers />
   </component>
@@ -151,7 +97,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/layout/Menu.tsx</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

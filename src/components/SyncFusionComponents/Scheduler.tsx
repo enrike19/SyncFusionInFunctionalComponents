@@ -1,14 +1,38 @@
-import { ScheduleComponent, Day, Week, WorkWeek, Month, Agenda, Inject } from '@syncfusion/ej2-react-schedule';
-
+import BasicScheduler from "./Schedules/BasicScheduler";
+import SettingViewScheduler from "./Schedules/SettingViewScheduler";
+import CrudScheduler from "./Schedules/CrudScheduler";
+import VirtualScrollingSchedule from "./Schedules/VirtualScrollingSchedule";
 
 const Scheduler = () => {
+
     return (
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <ScheduleComponent>
-                        <Inject services={[Day, Week, WorkWeek, Month, Agenda]}/>
-                    </ScheduleComponent>
+                    <BasicScheduler/>
+                </div>
+            </div>
+
+            <div className=" mt-40">
+                <div className="col-md-12">
+                    <SettingViewScheduler/>
+                </div>
+            </div>
+
+            <div className=" mt-40">
+                <div className="col-md-12">
+                    <CrudScheduler/>
+                </div>
+            </div>
+
+            <div className=" mt-40">
+                <div className="col-md-12">
+                    <VirtualScrollingSchedule/>
+                </div>
+            </div>
+
+            <div className=" mt-40">
+                <div className="col-md-12">
                 </div>
             </div>
         </div>
