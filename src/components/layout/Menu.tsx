@@ -4,7 +4,7 @@ import {SidebarComponent} from "@syncfusion/ej2-react-navigations";
 const Menu = () => {
 
     const links = [
-       /* {name: 'Button Group', link: '/buttonGroup'},
+        {name: 'Button Group', link: '/buttonGroup'},
         {name: 'Button', link: '/buttons'},
         {name: 'Carousel', link: '/carousel'},
         {name: 'Charts', link: '/charts'},
@@ -12,10 +12,10 @@ const Menu = () => {
         {name: 'DataGrid', link: '/dataGrid'},
         {name: 'DataManager', link: '/dataManager'},
         {name: 'Dropdown', link: '/dropdown'},
-        //name: 'PivotTable', link: '/pivotTable'},
+        {name: 'PivotTable', link: '/pivotTable'},
         {name: 'Barcodes', link: '/barcode'},
-        //{name: 'Tree Grid', link: '/treeGrid'},
-       // {name: 'Range Navigator', link: '/rangeNavigator'},
+        {name: 'Tree Grid', link: '/treeGrid'},
+        {name: 'Range Navigator', link: '/rangeNavigator'},
         {name: 'Context Menu', link: '/contextMenu'},
         {name: 'Dashboard layout', link: '/dashboardLayout'},
         {name: 'DatesPicker', link: 'datesPicker'},
@@ -34,7 +34,7 @@ const Menu = () => {
         {name: 'Maps', link: '/maps'},
         {name: 'Masked Inputs', link: '/maskedInputs'},
         {name: 'Menu Bar', link: '/menubar'},
-        {name: 'Multiselect', link: '/multiselect'},*/
+        {name: 'Multiselect', link: '/multiselect'},
         {name: 'Numeric TextBox', link: '/numericTextbox'},
         {name: 'Pager', link: '/pager'},
         {name: 'Pdf Viewer', link: '/pdfviewer'},
